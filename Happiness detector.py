@@ -3,11 +3,13 @@ import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade=cv2.CascadeClassifier('haarcascade_eye.xml')
 smile_cascade=cv2.CascadeClassifier('haarcascade_smile.xml')
+#0 for webcam of computer and 1 for eternal device webcam
 webcam = cv2.VideoCapture(0)
 
 while True:
     check, frame = webcam.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+     #faces are tuples of four elements
     faces = face_cascade.detectMultiScale(frame,1.1,5)
     for x,y,w,h in faces:
         cv2.rectangle(frame, (x,y), (x+w,y+h), (255,0,0), 3)
