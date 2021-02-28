@@ -1,2 +1,2 @@
 # Happiness-Detection
-It detects your happy and smily face through your webcam of your computer.
+It detects your happy and smily face through the webcam of your computer.
