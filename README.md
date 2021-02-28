@@ -1,5 +1,5 @@
 # Happiness Detection In Python Using OpenCV
-This repository consists of code that can detect your happy and smily face through the webcam of your computer.
+This repository consists of code that can detect your face, eyes and smile through the webcam of your computer.
 
 ## OpenCV
 OpenCV is an open source computer vision and machine learning software library. Some applications of these algorithms include face detection, object recognition, extracting 
