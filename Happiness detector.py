@@ -27,6 +27,7 @@ while True:
     
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+#To exit webcam
 webcam.release()
 cv2.destroyAllWindows()
 
